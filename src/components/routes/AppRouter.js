@@ -19,7 +19,7 @@ import React from "react";
 function AppRouter() {
 
     return (
-        <Router>
+        <Router basename="/Pensum-Tracker">
         <Routes>
             <Route path="/home" element={
                     <Home />
