@@ -24,7 +24,7 @@ git remote remove origin
 npm run deploy
 
 By default, the new commit on the gh-pages branch will have a commit message of "Updates". You can specify a custom commit message via the -m option, like this:
-npm run deploy -- -m "Deploy React app to GitHub Pages"
+npm run deploy -- -m "Deploy Github pages for Pensum Tracker"
 
 Configure GitHub Pages
 

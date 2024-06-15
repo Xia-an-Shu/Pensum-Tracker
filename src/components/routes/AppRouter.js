@@ -56,7 +56,7 @@ function AppRouter() {
                     <Profile />
                 }/>
 
-            <Route path="*" element={<Navigate to="/home" />} />
+            <Route path="*" element={<Navigate to="/Pensum-Tracker/home" />} />
             
         </Routes>
     </Router>
