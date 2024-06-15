@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Pensum-Tracker/static/css/main.8b3137ca.css",
-    "main.js": "/Pensum-Tracker/static/js/main.4dd6873e.js",
+    "main.js": "/Pensum-Tracker/static/js/main.e7ce3460.js",
     "static/media/Gen Jyuu Gothic Medium.ttf": "/Pensum-Tracker/static/media/Gen Jyuu Gothic Medium.8f5595ccdad1467ec673.ttf",
     "static/media/I.Ngaan Regular.ttf": "/Pensum-Tracker/static/media/I.Ngaan Regular.3fc76ef49c0d77886f60.ttf",
     "static/media/background2.jpg": "/Pensum-Tracker/static/media/background2.38ae7204e1d42434becb.jpg",
@@ -23,10 +23,10 @@
     "static/media/tag.svg": "/Pensum-Tracker/static/media/tag.f49d26f20d357bd0b9ea2e30245a7307.svg",
     "static/media/home.svg": "/Pensum-Tracker/static/media/home.4fad14b3b5fb8e4633d8b5b461856e1b.svg",
     "main.8b3137ca.css.map": "/Pensum-Tracker/static/css/main.8b3137ca.css.map",
-    "main.4dd6873e.js.map": "/Pensum-Tracker/static/js/main.4dd6873e.js.map"
+    "main.e7ce3460.js.map": "/Pensum-Tracker/static/js/main.e7ce3460.js.map"
   },
   "entrypoints": [
     "static/css/main.8b3137ca.css",
-    "static/js/main.4dd6873e.js"
+    "static/js/main.e7ce3460.js"
   ]
 }
