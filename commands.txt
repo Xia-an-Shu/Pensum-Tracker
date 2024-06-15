@@ -5,8 +5,8 @@ npm install sass
 npm install bootstrap
 npm install react-bootstrap
 npm install react-router-dom
-npm install react-uuidn
-pm install react-intl --save
+npm install react-uuid
+npm install react-intl --save
 npm install --save react-render-image
 npm install @auth0/auth0-react
 
