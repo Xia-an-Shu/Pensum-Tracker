@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/pensum-tracker/static/css/main.44ad2879.css",
+    "main.js": "/pensum-tracker/static/js/main.2c160884.js",
+    "static/media/Gen Jyuu Gothic Medium.ttf": "/pensum-tracker/static/media/Gen Jyuu Gothic Medium.8f5595ccdad1467ec673.ttf",
+    "static/media/I.Ngaan Regular.ttf": "/pensum-tracker/static/media/I.Ngaan Regular.3fc76ef49c0d77886f60.ttf",
+    "static/media/background2.jpg": "/pensum-tracker/static/media/background2.38ae7204e1d42434becb.jpg",
+    "static/media/reiko.ttf": "/pensum-tracker/static/media/reiko.de9cee2fa0bae696ad1a.ttf",
+    "static/media/background4.jpg": "/pensum-tracker/static/media/background4.5c78a1029cf38a798761.jpg",
+    "static/media/background3.jpg": "/pensum-tracker/static/media/background3.a2b1d3bb7aaa4423dec1.jpg",
+    "static/media/banner.jpg": "/pensum-tracker/static/media/banner.bb5f2d95ecaba4a39518.jpg",
+    "static/media/background.jpg": "/pensum-tracker/static/media/background.733e6732309301f13acd.jpg",
+    "static/media/SingleDay-Regular.ttf": "/pensum-tracker/static/media/SingleDay-Regular.b78b535a0525794dd2ad.ttf",
+    "static/media/JosefinSans-VariableFont_wght.ttf": "/pensum-tracker/static/media/JosefinSans-VariableFont_wght.613585db06f849ca7717.ttf",
+    "static/media/courseImg1.png": "/pensum-tracker/static/media/courseImg1.7a22fc3156b6987b36e9.png",
+    "static/media/clock.svg": "/pensum-tracker/static/media/clock.6b7b105cad43800ce075f9b217b4faad.svg",
+    "index.html": "/pensum-tracker/index.html",
+    "static/media/grades.svg": "/pensum-tracker/static/media/grades.6015b6015b4bb4f40acc985da29ae63a.svg",
+    "static/media/detailsArrow.svg": "/pensum-tracker/static/media/detailsArrow.0e746403c93f941fe3473a38dfe06674.svg",
+    "static/media/reminders.svg": "/pensum-tracker/static/media/reminders.4931f2762bfd973de991cff594d1cd9a.svg",
+    "static/media/searchIcon.svg": "/pensum-tracker/static/media/searchIcon.48d45077207558c37c0f42a64510c404.svg",
+    "static/media/notes.svg": "/pensum-tracker/static/media/notes.48dfff55f40a87d0d7bb678bf6cc157b.svg",
+    "static/media/tag.svg": "/pensum-tracker/static/media/tag.f49d26f20d357bd0b9ea2e30245a7307.svg",
+    "static/media/home.svg": "/pensum-tracker/static/media/home.4fad14b3b5fb8e4633d8b5b461856e1b.svg",
+    "main.44ad2879.css.map": "/pensum-tracker/static/css/main.44ad2879.css.map",
+    "main.2c160884.js.map": "/pensum-tracker/static/js/main.2c160884.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44ad2879.css",
+    "static/js/main.2c160884.js"
+  ]
+}
