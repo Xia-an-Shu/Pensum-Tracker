@@ -20,6 +20,7 @@ function AppRouter() {
 
     return (
         <Router basename="/Pensum-Tracker">
+        {/* <Router> */}
         <Routes>
             <Route path="/home" element={
                     <Home />

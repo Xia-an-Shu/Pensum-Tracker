@@ -7,9 +7,9 @@ import { AppRouter } from "./components/routes/AppRouter";
 function App() {
   return (
       <Auth0Provider
-          domain="isis2503-fai-aher.us.auth0.com"
-          clientId="trA7SfedJedZG91taIOeYTyjyUHvbljz"
-          redirectUri={window.location.origin + "/home"}
+          domain="dev-t4k4tx5owk02vb5k.us.auth0.com"
+          clientId="8ZuZCFv24cLeuiM3JHHzJWkoom17KGqb"
+          redirectUri={window.location.origin + "/Pensum-Tracker/home"}
       >
           <AppRouter />
 
