@@ -1,0 +1,139 @@
+/* CourseSelection.css */
+
+.course-selection {
+    background-color: #000E1C;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.course-selection-title {
+    color: #ffffff;
+    text-align: left;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-top: 2%;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.course-selection-instruction {
+    color: #ffffff;
+    font-size: 1.1rem;
+    margin-bottom: 1%;
+    margin-left: 1.2%;
+}
+
+.course-search {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 70%;
+}
+
+.course-search input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+}
+
+.course-search button {
+    padding: 10px;
+    border: none;
+    background-color: #C1D201;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.course-search button img {
+    width: 20px;
+    height: 20px;
+}
+
+.courses-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+}
+
+.course-card {
+    min-width: 280px;   
+    min-height: 340px;
+    margin-left: 0px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: grab;
+    overflow: hidden;
+    flex-direction: column;
+    position: relative;
+}
+
+.course-card h3 {
+    margin: 10px;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.course-card p {
+    margin-left: 0px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.course-image {
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Adjust the styles below based on actual image paths and hover effects */
+.course-card:hover {
+    transform: scale(1.03);
+}
+
+.course-details {
+    display: none;
+    position: absolute;
+    width: 70%;
+    background-color: #CCCCCC;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+
+    /* Positioning */
+    top: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#moreDetailsP{
+    font-size: calc(1vw + 0.2vh + .1vmin);
+    margin-top: 10px;
+    width: 68%;
+}   
+
+.info-icon img {
+    width: 15%; /* Adjust size as necessary */
+}
+
+.info-icon {
+    position: relative;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    margin-bottom: 5px;
+}
+
+.info-icon p{
+    font-size: 0.8rem;
+    margin-top: 10px;
+}   
+
+.info-icon:hover .course-details {
+    display:block;
+}
+

@@ -1,0 +1,15 @@
+npx create-react-app front
+
+Libraries:
+npm install sass
+npm install bootstrap
+npm install react-bootstrap
+npm install react-router-dom
+npm install react-uuidn
+pm install react-intl --save
+npm install --save react-render-image
+npm install @auth0/auth0-react
+
+Commands:
+npm start (correr el proyecto localmente)
+npm test (correr los test localmente antes de hacer commit y que salgan mal en jenkins luego)

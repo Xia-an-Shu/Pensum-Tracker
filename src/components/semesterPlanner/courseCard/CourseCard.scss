@@ -1,0 +1,37 @@
+/* CourseCard.css */
+
+.course-card {
+    background-color: #fff;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-align: center;
+    position:relative;
+}
+
+#main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.course-card.selected {
+    transform: scale(0.5);
+    border: solid 2px #C1D201;
+}
+
+.course-code {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.course-title,
+.course-credits {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}

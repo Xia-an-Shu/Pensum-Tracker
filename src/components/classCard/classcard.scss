@@ -1,0 +1,102 @@
+.classcard-main-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", sans-serif;
+
+    #class__card__container{
+        width: 200px;
+        height: 215px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-template-rows: repeat(4, 1fr) 2fr;
+        grid-template-areas: 
+        "code conf" 
+        "credits none"
+        "status none"
+        "grade none"
+        "name none";
+        border: 1px solid whitesmoke;
+        border-radius: 10px;
+        background-color: rgba(255, 255, 255, 0.127);
+    }
+    
+    #class__card__container:hover{
+        background-color: rgba(255, 255, 255, 0.3);
+        cursor: pointer;
+    }
+    
+    #cod__container, #credits__container,
+    #status__container, #grade__container{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        font-size: 13px;
+        line-height: 20px;
+        padding-left: 5px;
+    }
+    
+    #cod__container{
+        grid-area: code;
+    }
+    
+    #credits__container{
+        grid-area: credits;
+    }
+    
+    #status__container{
+        grid-area: status;
+    }
+    
+    #grade__container{
+        grid-area: grade;
+    }
+    
+    #name__container{
+        grid-area: name;
+        grid-column: 1/ span 2;
+        font-size: 12px;
+        background-color: whitesmoke;
+        border-radius: 0 0 10px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #config__icon{
+        width: 30px;
+        height: 30px;
+        grid-area: conf;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    
+    .titulo__item{
+        font-size: 15px;
+        font-weight: bold;
+        
+    }
+    
+    .valor__item{
+        padding-left: 5px;
+    }
+    
+    #name__item{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        line-height: 15px;
+        font-weight: bold;
+        color: black;
+        padding: 10px;
+    }
+    
+    
+}
+
+
+
+

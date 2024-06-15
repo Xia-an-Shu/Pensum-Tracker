@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.new_career_main__container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", sans-serif;
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Helvetica", sans-serif;
+    }
+
+    #background__container {
+        position: relative;
+        width: 100%;
+        display: grid;
+        grid-template-rows: 60px 7fr 1fr;
+        grid-template-areas:
+            "navbar"
+            "content"
+            "footer";
+    
+        &::before {
+            content: "";
+            background: url('../../images/background2.jpg');
+            background-size: cover;
+            opacity: 0.7;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+    
+    #main__content__container {
+        grid-area: content;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "info form";
+    }
+    
+    #info__container {
+        width: 100%;
+        grid-area: info;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 70px;
+        padding-right: 120px;
+    
+    }
+    
+    #exito {
+        color: #C9D815;
+    }
+    
+    #form__container {
+        width: 100%;
+        grid-area: form;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .content__container {
+        border-radius: 23px;
+    }
+    
+    #navbar__container {
+        grid-area: navbar;
+    }
+    
+    #footer__container {
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        justify-content: center;
+        grid-area: footer;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+    }
+    
+    #lema {
+        color: white;
+        font-size: 60px;
+        line-height: 65px;
+        text-align: left;
+    }
+    
+    #support__text {
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        line-height: 30px;
+        font-weight: 500;
+        text-align: left;
+        margin-top: 15px;
+    }
+    
+    /*
+    FORM CSS
+    **/
+    
+    #primeros__pasos {
+        color: white;
+        font-size: 60px;
+        line-height: 65px;
+    }
+    
+    #college__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+    }
+    
+    .div__input {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+    .div__input select {
+        height: 57px;
+        width: 400px;
+        padding: 10px;
+        -webkit-classNotesearance: none;
+        -moz-classNotesearance: none;
+        appearance: none;
+    }
+    
+    .div__input label {
+        color: white;
+        font-size: 18px;
+        line-height: 23px;
+        height: 30px;
+        text-align: left;
+    
+    }
+    
+    .empty__option {
+        color: #00000027;
+    }
+    
+    #btn__container button {
+        color: black;
+        background-color: #C9D815;
+        width: 343px;
+        height: 69px;
+        border-radius: 10px;
+        margin-top: 80px;
+        font-size: 30px;
+        line-height: 35px;
+        font-weight: bold;
+        border: 1.5px solid black;
+    }
+    
+    #btn__container button:hover {
+        cursor: pointer;
+    }
+    
+    @media(max-width: 950px) {
+        #main__content__container {
+            grid-template-columns: 1fr;
+            grid-template-areas:
+                "info"
+                "form";
+        }
+    
+        #info__container {
+            padding: 30px;
+            align-self: center;
+        }
+    
+        #lema{
+            text-align: center;
+            font-size: 40px;
+            line-height: 45px;
+        }
+    
+        #support__text {
+            text-align: center;
+            font-size: 20px;
+            line-height: 25px;
+            padding: 0px 150px;
+        }
+    
+        #primeros__pasos {
+            font-size: 40px;
+            line-height: 45px;
+        }
+    
+        #college__selection {
+            width: 100%;
+        }
+    
+        .div__input select {
+            width: 100%;
+        }
+    
+        #btn__container{
+            width: 100%;
+        }
+    
+        #carrer__selection{
+            width: 100%;
+        }
+    }
+    
+    @media(max-width: 660px) {
+        #info__container {
+            padding: 30px;
+            align-self: center;
+        }
+    
+        #lema{
+            text-align: center;
+            font-size: 25px;
+            line-height: 30px;
+        }
+    
+        #support__text {
+            text-align: center;
+            font-size: 15px;
+            line-height: 20px;
+            padding: 0px 30px;
+        }
+    
+        #primeros__pasos {
+            font-size: 30px;
+            line-height: 35px;
+            color: #C9D815;
+        }
+    
+        #college__selection {
+            width: 90%;
+        }
+    
+        .div__input select {
+            width: 100%;
+            border-radius: 10px;
+            font-size: 12px;
+        }
+    
+        #college__selection label, #carrer__selection label{
+            font-size: 12px;
+            padding-left: 10px;
+        }
+    
+        #btn__container button{
+            margin-top: 40px;
+            width: 90%;
+            font-size: 25px;
+        }
+    
+        #carrer__selection{
+            width: 90%;
+        }
+    
+        #college__form{
+            width: 80%;
+        }
+    
+    }
+
+}
+

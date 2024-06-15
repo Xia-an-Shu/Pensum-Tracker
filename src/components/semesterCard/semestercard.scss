@@ -1,0 +1,80 @@
+#main__semester__container{
+    display: grid;
+    grid-template-columns: 310px 1fr;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.608);
+    padding-bottom: 15px;
+    padding-left: 20px;
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica", sans-serif;
+
+    #semester__card__main__container{
+        position: relative;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 305px;
+        height: 430px;
+        &::before {
+            border-radius: 10px;
+            content: "";
+            background: url('../../images/background4.jpg');
+            background-size: cover;
+            width: 305px;
+            height: 430px;
+            opacity: 0.6;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            position: absolute;
+            z-index: -1;
+        }
+    }
+    
+    #semester__title{
+        font-size: 45px;
+        line-height: 50px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+    
+    #classes__title{
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    #classes__num{
+        margin-bottom: 30px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    #GPA__title{
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    #GPA__num{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    #clases__container{
+        display:grid;
+        row-gap: 15px;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+

@@ -1,0 +1,104 @@
+/* Header.css */
+
+.semester-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #000E1C;
+
+    .logo {
+        margin-top: 2%;
+        margin-left: 23px;
+        font-size: 30px;
+        color: #ffffff; 
+    }   
+    
+    .help-section {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .help-button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #D9D9D970;
+        color: #ffffff; 
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 50px;
+        height: 60%;
+        margin-top: 4%;
+        font-size: 16px;
+    }
+    
+    .view-pensum-button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #C1D201;
+        color: #000000;
+        cursor: pointer;
+        font-weight: bold;
+        border-radius: 50px;
+        height: 60%;
+        margin-top: 4%;
+        font-size: 16px;
+    }
+    
+    .help-button:hover {
+        background-color: #C1D201;
+        color: #000000;
+    }
+    
+    .view-pensum-button:hover {
+        background-color: #D9D9D970;
+        color: #ffffff;
+    }
+    
+    .profile-section {
+        position: relative;
+        display: inline-block;
+    }
+    
+    .profile-image {
+        width: 3.8vw; /* 100% of viewport width */
+        height: 7vh; /* 100% of viewport height */
+        border-radius: 50%; /* Circular image */
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    .profile-options {
+        position: absolute;
+        right: 0;
+        background-color: #C1D201;
+        border: 1px solid #dddddd;
+        color: #000E1C;
+        border-radius: 5px;
+        padding: 10px;
+        display: none;
+        z-index: 100;
+        width: 150px; /* Adjust width as needed */
+        font-size: 1rem;
+    }
+    
+    .profile-options ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .profile-options ul li {
+        padding: 10px 15px;
+        cursor: pointer;
+    }
+    
+    .profile-options ul li:hover {
+        background-color: #D9D9D970;
+    }
+    
+    .profile-section:hover .profile-options {
+        display: block;
+    }
+
+}
+

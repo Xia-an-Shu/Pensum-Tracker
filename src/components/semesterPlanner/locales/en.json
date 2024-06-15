@@ -1,0 +1,23 @@
+{
+    "header.help": "Need Help?",
+    "header.viewPensum": "View My Curriculum",
+    "header.viewProfile": "View My Profile",
+    "header.backToMenu": "Go Back to Menu",
+    "header.logout": "Logout",
+    "courseSelection.title": "Course Selection",
+    "courseSelection.instruction": "To add a course to your planner, drag it with the mouse.",
+    "Planner.addWithCorequisites": "You want to enroll in {courseTitle}, however, it seems that you do not meet the corequisites: {corequisitesList}. Would you like to continue and plan all courses at the same time?",
+    "Planner.cannotAddPrerequisites": "You cannot enroll in {courseTitle} because you have not completed the prerequisite {prerequisitesList}.",
+    "Planner.prerequisites": "Prerequisites",
+    "Planner.corequisites": "Corequisites",
+    "Planner.semesterTitle": "Planning my 2025-10 Semester",
+    "Planner.plannedCredits": " Planned Credits",
+    "CourseSelection.courseSelection": "Course Selection",
+    "CourseSelection.instruction": "To add a course to your planner, drag it with the mouse.",
+    "CourseSelection.searchPlaceholder": "Search for a course",
+    "CourseSelection.moreDetails": "Look more details",
+    "Course.Title": "Title",
+    "Course.Credits": "Credits",
+    "Course.Prerequisites": "Prerequisites",
+    "Course.Corequisites": "Corequisites"
+  }

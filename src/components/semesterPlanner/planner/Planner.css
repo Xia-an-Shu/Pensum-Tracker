@@ -1,0 +1,145 @@
+/* Planner.css */
+
+.planner {
+    display: flex;
+    flex-direction: column;
+    background-color: #01D293; /* Main background color from the design */
+    padding: 2rem;
+    border-radius: 1rem;
+    color: white;
+    overflow-y: auto; /* Allow for vertical scrolling */
+}
+
+.planner-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3.5rem; /* Adjust the font size as necessary */
+    font-weight: 600;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Set to 5 columns */
+    gap: 1rem; /* Space between course cards */
+    align-content: start;
+    padding-bottom: 1rem; /* Space at the bottom of the grid */
+}   
+
+.course-container {
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    position: relative; /* For absolute positioning of lines */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Soft shadow for depth */
+    /* Smaller dimension for each course card */
+    width: 120px; /* Adjust width as necessary */
+    height: auto; /* Height to fit content */
+    margin: 0.5rem 0; /* Ensure there's space around each card */
+}
+
+.preCorequisitesH4 {
+    font-size: 1.2rem; /* Smaller font size for pre/corequisites */
+}
+
+
+.course-card {
+    background: white;
+    border-radius: 0.5rem;
+    padding: 10px; /* Smaller padding */
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    color: #333;
+    font-size: 1.4rem; /* Smaller font size */
+    transition: transform 0.3s ease;
+    /* Smaller dimension for the course card content */
+    width: 30%; /* Adjust width to fill container */
+    height: auto; /* Height to fit content */
+    
+}
+
+.course-card.long-title {
+    font-size: 1.2rem; /* Smaller font size for long titles */
+}
+
+.course-card h2, .course-card p {
+    margin: 1rem 0; /* Reduced margin */
+}
+
+.credits-summary {
+    margin-top: 1rem;
+    text-align: right;
+    font-size: 2rem; /* Smaller font size for credits summary */
+}   
+
+.course-card.fun-style {
+    background-color: #f9f9f9; /* Light grey background */
+    border: 2px dashed #004d40; /* Fun dashed border */
+    border-radius: 8px;
+    padding: 30px;
+    margin: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 77, 64, 0.2); /* Soft shadow for depth */
+    transition: transform 0.2s ease-in-out; /* Smooth transformation on hover */
+}
+
+.course-card.fun-style:hover {
+    transform: scale(1.05); /* Slightly enlarge card on hover */
+}
+
+.course-card.fun-style h2 {
+    color: #004d40; /* Title color */
+    font-size: 1.5em; /* Larger title */
+    margin-bottom: 0.5em;
+}
+
+.course-card.fun-style p {
+    color: #00695c; /* ID color */
+    font-weight: bold; /* Make ID stand out */
+    text-align: center;
+}
+
+.course-card.fun-style .relations {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.course-card.fun-style .prerequisites, 
+.course-card.fun-style .corequisites {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.course-card.fun-style .prerequisites h4, 
+.course-card.fun-style .corequisites h4 {
+    text-decoration: underline;
+    font-size: 0.75em;
+    color: #00796b;
+}
+
+.course-card.fun-style .prerequisites ul, 
+.course-card.fun-style .corequisites ul {
+    list-style-type: none;
+    padding: 2px;
+    font-size: 0.5rem;
+}
+
+.course-card.fun-style .prerequisites li {
+    background-color: #ff9900;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.course-card.fun-style .corequisites li {
+    background-color: #aff9f5;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1rem;
+}

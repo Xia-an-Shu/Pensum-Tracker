@@ -1,0 +1,23 @@
+{
+    "header.help": "¿Necesitas ayuda?",
+    "header.viewPensum": "Ver mi Pensum",
+    "header.viewProfile": "Ver mi perfil",
+    "header.backToMenu": "Volver al Inicio",
+    "header.logout": "Cerrar Sesión",
+    "courseSelection.title": "Selección de Cursos",
+    "courseSelection.instruction": "Para añadir un curso a tu planeador, arrástralo con el mouse.",
+    "Planner.addWithCorequisites": "Quieres inscribir {courseTitle}, sin embargo, parece que no cumples con los correquisitos: {corequisitesList}. ¿Aún así, deseas continuar y planear todos los cursos al tiempo?",
+    "Planner.cannotAddPrerequisites": "No puedes inscribir {courseTitle} porque no has completado el prerrequisito {prerequisitesList}.",
+    "Planner.prerequisites": "Prerrequisitos",
+    "Planner.corequisites": "Correquisitos",
+    "Planner.semesterTitle": "Planeando mi Semestre 2025-10",
+    "Planner.plannedCredits": " Créditos Planeados",
+    "CourseSelection.courseSelection": "Selección de Cursos",
+    "CourseSelection.instruction": "Para añadir un curso a tu planeador, arrástralo con el mouse.",
+    "CourseSelection.searchPlaceholder": "Busca un Curso",
+    "CourseSelection.moreDetails": "Ver más detalles",
+    "Course.Title": "Título",
+    "Course.Credits": "Créditos",
+    "Course.Prerequisites": "Prerrequisitos",
+    "Course.Corequisites": "Correquisitos"
+  } 

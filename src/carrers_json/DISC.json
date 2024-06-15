@@ -1,0 +1,109 @@
+[{
+    "sem": 1,
+    "cursos": [
+        {
+            "codigo": "MATE-1201",
+            "nombre": "Cálculo diferencial",
+            "creditos": 3,
+            "prerequisitos": []
+        },
+        {
+            "codigo": "ISIS-1221",
+            "nombre": "Introducción a la programación",
+            "creditos": 3,
+            "prerequisitos": []
+        },
+        {
+            "codigo": "ISIS-1001",
+            "nombre": "Introducción a la ingeniería de sistemas",
+            "creditos": 3,
+            "prerequisitos": []
+        },
+        {
+            "codigo": "ESCR-1101",
+            "nombre": "Escritura universitaria I",
+            "creditos": 2,
+            "prerequisitos": []
+        },
+        {
+            "codigo": "ESCR-1102",
+            "nombre": "Escritura universitaria II",
+            "creditos": 2,
+            "prerequisitos": ["ESCR-1101"]
+        },
+        {
+            "codigo": "DERE-1300",
+            "nombre": "Constitución y democracia",
+            "creditos": 3,
+            "prerequisitos": []
+        }
+    ]
+},
+{
+    "sem": 2,
+    "cursos": [
+        {
+            "codigo": "MATE-1202",
+            "nombre": "Cálculo integral",
+            "creditos": 3,
+            "prerequisitos": ["MATE-1201"]
+        },
+        {
+            "codigo": "ISIS-1202",
+            "nombre": "Programación orientada a objetos",
+            "creditos": 3,
+            "prerequisitos": ["ISIS-1221"]
+        },
+        {
+            "codigo": "ISIS-1203",
+            "nombre": "Estructuras de datos",
+            "creditos": 3,
+            "prerequisitos": ["ISIS-1221"]
+        },
+        {
+            "codigo": "ISIS-1204",
+            "nombre": "Ingeniería de requerimientos",
+            "creditos": 3,
+            "prerequisitos": ["ISIS-1001"]
+        },
+        {
+            "codigo": "ISIS-1205",
+            "nombre": "Ingeniería de software",
+            "creditos": 3,
+            "prerequisitos": ["ISIS-1001"]
+        },
+        {
+            "codigo": "ESCR-1103",
+            "nombre": "Escritura universitaria III",
+            "creditos": 2,
+            "prerequisitos": ["ESCR-1102"]
+        },
+        {
+            "codigo": "DERE-1301",
+            "nombre": "Derecho y sociedad",
+            "creditos": 3,
+            "prerequisitos": []
+        }
+    ]
+},
+{
+    "sem": 3,
+    "cursos": [
+        {
+            "codigo": "MATE-1203",
+            "nombre": "Cálculo multivariable",
+            "creditos": 3,
+            "prerequisitos": ["MATE-1202"]
+        },
+        {
+            "codigo": "ISIS-1206",
+            "nombre": "Ingeniería de software II",
+            "creditos": 3,
+            "prerequisitos": ["ISIS-1205"]
+        },
+        {
+            "codigo": "ISIS-1207",
+            "nombre": "Ingeniería de sistemas",
+            "creditos": 3,
+            "prerequisitos": ["ISIS-1204"]
+}]}]

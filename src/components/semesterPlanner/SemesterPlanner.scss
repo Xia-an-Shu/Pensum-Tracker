@@ -1,0 +1,49 @@
+/* SemesterPlanner.css */
+
+.semester-planner-parent {
+  height: 100%; /* Use 100% height to fill the parent */
+  overflow-y: auto; /* Enables vertical scrolling if the content overflows */
+  padding-bottom: 2rem; /* Adds some space at the bottom */
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: #5b5b5b #e1e1e1; /* thumb and track color */
+  background-color: #000E1C;
+
+  height: 100%; /* Full height */
+  //   margin: 0; /* Resets default margin */
+  //   overflow-y: auto; /* Ensure that the html and body are scrollable */
+  //   background-color: #000E1C;
+  
+  // body, html {
+  //   height: 100%; /* Full height */
+  //   margin: 0; /* Resets default margin */
+  //   overflow-y: auto; /* Ensure that the html and body are scrollable */
+  //   background-color: #000E1C;
+  // }
+  
+  /* Additional global styles to ensure the app's content fits well */
+  #root {
+    min-height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Custom scrollbar styles */
+
+  /* For Webkit browsers */
+  .semester-planner-parent::-webkit-scrollbar {
+      width: 12px; /* width of the vertical scrollbar */
+      height: 12px; /* height of the horizontal scrollbar */
+  }
+    
+  .semester-planner-parent::-webkit-scrollbar-track {
+      background: #e1e1e1; /* color of the tracking area */
+      border-radius: 10px;
+  }
+    
+  .semester-planner-parent::-webkit-scrollbar-thumb {
+      background-color: #5b5b5b; /* color of the scroll thumb */
+      border-radius: 10px;
+      border: 3px solid #e1e1e1; /* creates padding around scroll thumb */
+  }
+
+}

@@ -1,0 +1,63 @@
+/* All ids or classes start with the component name followed by '-' in kebab-case */
+
+$public: '../public/';
+
+$fonts: (
+    // 1. Latin
+    // 'Amatic SC regular': '#{$public}fonts/Latin/Amatic_SC/AmaticSC-Regular.ttf',
+    // 'Amatic SC bold': '#{$public}fonts/Latin/Amatic_SC/AmaticSC-Bold.ttf',
+    'Josefin Sans':'#{$public}fonts/Latin/Josefin_Sans/JosefinSans-VariableFont_wght.ttf',
+    // 2. Chinese
+    'I.Ngaan Regular': '#{$public}fonts/Chinese/I.Ngaan Regular/I.Ngaan Regular.ttf',
+    'Gen Jyuu Gothic Medium': '#{$public}fonts/Chinese/Gen Jyuu Gothic Medium/Gen Jyuu Gothic Medium.ttf',
+    // 3. Japanese
+    'Reiko': '#{$public}fonts/Japanese/Reiko/reiko.ttf',
+    // 4. Korean
+    'Single Day': '#{$public}fonts/Korean/Single_Day/SingleDay-Regular.ttf'
+);
+
+$font-families: map-keys($fonts), sans-serif;
+
+@each $font, $path in $fonts {
+  @font-face {
+      font-family: #{$font};
+      src: url($path);
+  }
+}
+
+body {
+  user-select: none;
+  margin: 0;
+  background-color: #000810;
+  color: white;
+  font-family: $font-families;
+  font-size: 2vmin;
+  text-align: center;
+  overflow: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+p {
+  text-align: justify;
+}
+
+a {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+// Styles for input fields
+
+input {
+  font-family: $font-families;
+  background-color: white;
+  border: none;
+  border-radius: 3%;
+  // box-shadow: -1vmin 1vmin 0 rgb(204, 192, 176);
+}

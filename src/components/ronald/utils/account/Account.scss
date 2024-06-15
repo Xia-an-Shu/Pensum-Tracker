@@ -1,0 +1,28 @@
+.ronald-account {
+
+    // Flexbox
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    * {
+        padding-left: 1.5vmin;
+        padding-right: 1.5vmin;
+    }
+
+    .user {
+        font-size: 2.5vmin !important;
+    }
+
+    .icon {
+        height: 6vmin;
+        border-radius: 50%;
+        filter: drop-shadow(0 0 3px rgba(255, 255, 255, 0.5)) !important;
+    }
+
+    .arrow-down {
+        height: 3vmin;
+    }
+
+}

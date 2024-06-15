@@ -1,0 +1,46 @@
+/* WarningBox.css */
+
+.warning-box {
+    position: absolute;
+    font-size: 2rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000E1C;
+    color: #fff;
+    padding: 2.5%;
+    border-radius: 10px;
+    z-index: 1000; /* Make sure this is above everything else */
+    border: 2px solid #C1D201;
+}
+
+.warning-box p {
+    margin-bottom: 2%;
+}
+
+.warning-box button {
+    margin-right: 5%;
+    margin-top: 2%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+    width: 20%;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#cancel {
+    background-color: #d20101;
+    color: #ffffff;
+}
+
+#confirm {
+    background-color: #C1D201;
+    color: #000000;
+}
+
+.warning-box button:hover {
+    opacity: 0.8;
+}

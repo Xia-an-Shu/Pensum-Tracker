@@ -1,0 +1,129 @@
+// Use background img for banner: "./banner.jpg"
+
+.ronald-reminders {
+    //Flex box
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .banner-container {
+        flex: 0.1;
+        flex-shrink: 0;
+
+        background-image: url("./banner.jpg");
+        background-size: cover; 
+        background-position: center 45%;
+
+        padding: 10vmin;
+        border-radius: 10px;
+
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: #2e2e2e66;;
+        }
+
+        .title {
+            position: absolute;
+            left: 4vmin;
+            top: 5vmin;
+            color: #fff;
+            font-size: 5vmin;
+        }
+    
+        .subtitle {
+            position: absolute;
+            left: 4vmin;
+            top: 13vmin;
+            color: #fff;
+            font-size: 3vmin;
+        }
+    }
+
+    .tasks-weekview-container {
+        flex: 0.9;
+        flex-grow: 1;
+        // Flex box
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+
+        padding-top: 3vmin;
+        * {color:black}
+
+        .tasks-container {
+            flex: 0.3;
+            flex-shrink: 0;
+            // Flex box
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            padding-bottom: 5vmin;            
+
+            .guide {
+                flex: 0.2;
+                flex-shrink: 0;
+                // Flex box
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+
+                background-color: #FFFFEC;
+                border-radius: 5px;
+                * {font-size: 2vmin;}
+                padding: 2vmin;
+                width: 40vmin;
+                margin-bottom: 3vmin;
+
+                .closed-indicator, .active-indicator, .tag-icon {
+                    margin-right: 1.5vmin;
+                }
+
+                .closed-indicator, .active-indicator {
+                    border-radius: 50%;
+                    padding: 0.8vmin;
+                } 
+
+                .active-indicator, .tag-icon {
+                    margin-left: 3vmin;
+                }
+
+                .closed-indicator {
+                    background-color: #FF0000;
+                }
+
+                .active-indicator {
+                    background-color: #00FFA3;
+                }
+
+                .tag-icon {
+                    height: 2vmin;
+                    width: 2vmin;
+                }
+
+            }
+
+            .alltasks {
+                flex: 0.8;
+                flex-grow: 1;
+            }
+
+        }
+
+        .weekview-container {
+            flex: 0.7;
+            flex-grow: 1;
+        }
+
+    }
+}

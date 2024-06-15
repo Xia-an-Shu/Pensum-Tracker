@@ -1,0 +1,52 @@
+// Font is Josefin Sans
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap'); 
+
+.ronald-base {
+
+    * { font-family: 'Josefin Sans', sans-serif !important; }
+
+    background-color: #2E2E2E;
+    color: white;
+
+    // Flex box
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+
+    .header {
+        // Parent flex settings
+        flex-shrink: 0; // This prevents the header from shrinking
+        // Flex box
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 4vmin;
+        padding-bottom: 4vmin;
+    }
+
+    .body-container {
+        // Parent flex settings
+        flex-grow: 1; // This makes the body-container take up the remaining space
+        // Flex box
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        padding-bottom: 5vmin;
+
+        .body {
+            flex: 0.95;
+            padding-right: 10vmin;
+        }
+
+        .separator {
+            flex: 0.05;
+            border-left: 1px solid #ffffff;
+            height: 80%;
+        }
+
+    }
+
+}
