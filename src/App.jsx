@@ -1,4 +1,4 @@
-import { Auth0Provider} from "@auth0/auth0-react";
+// import { Auth0Provider} from "@auth0/auth0-react";
 import './App.scss';
 import React from "react";
 import { AppRouter } from "./components/routes/AppRouter";
